@@ -119,6 +119,22 @@ button:hover{
     grid-template-columns: auto auto auto;
 }
 
+@media screen and (max-width: 800px){
+    .album{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .album{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+}
+
 .albumPics{
     width: 20vw;
 }
